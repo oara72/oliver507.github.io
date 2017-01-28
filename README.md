@@ -1,6 +1,6 @@
-> Oliver Alexander
-> Web Developer
-> January 28th, 2017. 
+<!-- Oliver Alexander
+Web Developer
+January 28th, 2017. -->
 
 # Comenzar un web pages de github
 
