@@ -75,8 +75,8 @@ Por lo general he tenido muchas complicaciones cuando utilizo el comando *$git a
 borramos el readme del branch master
 
 ```
-$git rm README.md
-$git push origin master
+$ git rm --cached readme.md
+$ git push origin master
 ```
 Listo ahora solo tenemos que ir al sitio web de git hub y en settings > options > change theme y apretar el boton para elegir un tema esto genera un archivo en nuetro repositorio llamado _config.yml.
 
