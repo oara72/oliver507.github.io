@@ -71,10 +71,15 @@ $ git add index.html
 $ git commit -m "add index"
 $ git push origin master
 ```
-Por lo general he tenido muchas complicaciones cuando utilizo el comando *$git add .* (el punto indica que es todo") asi que prefiero adicionar y borrar archivos individualmente.
+Por lo general he tenido muchas complicaciones cuando utilizo el comando *$git add .* (el punto indica que es todo) asi que prefiero adicionar y borrar archivos individualmente.
 
+borramos el readme del branch master
 
-
+```
+$git rm README.md
+$git push origin master
+```
+Listo ahora solo tenemos que ir al sitio web de git hub y en settings > options
 
 
 # Referencias:
