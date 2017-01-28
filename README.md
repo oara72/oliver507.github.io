@@ -21,7 +21,7 @@ ahora empezamos a crear nuestra web con los siguientes comandos.
 
 ```
 $ git init
-$ echo "#read me" >> README.md
+$ echo "# read me" >> README.md
 $ git add README.md
 $ git commit -m "first commit"
 $ git push origin -u master
@@ -45,7 +45,37 @@ para verificar que estamos ahi usa el comando.
 ```
 $ git branch 
 ```
-el simbolo * no indica
+el simbolo * no indica en que branch nos encontramos.
+
+ahora enviamos informacion a este nuevo branch para que se genere.
+
+```
+$ echo "# pages-gh" >> README.md
+$ git add README.md
+$ git commit -m "add a new read me"
+$ git push origin -u pages-gh
+```
+Como se puede observar es importante hacer el push correspondiente con el branch donde nos encontramos.
+
+Ahora vamos al web de Git Hub y en settings buscamos branches > default branch y ponemos por default la branch pages-gh.
+
+Ahora en la terminal hacemos switch nuevamente al branch master.
+
+```
+$ git checkout master
+```
+Ahora creamos un archivo index.html lo adicionamos y borramos el readme.md previamente creado. (en el branch master).
+
+```
+$ git add index.html
+$ git commit -m "add index"
+$ git push origin master
+```
+Por lo general he tenido muchas complicaciones cuando utilizo el comando *$git add .* (el punto indica que es todo") asi que prefiero adicionar y borrar archivos individualmente.
+
+
+
+
 
 # Referencias:
 
