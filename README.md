@@ -50,9 +50,8 @@ el simbolo * no indica en que branch nos encontramos.
 ahora enviamos informacion a este nuevo branch para que se genere.
 
 ```
-$ echo "# pages-gh" >> README.md
-$ git add README.md
-$ git commit -m "add a new read me"
+$ git add .
+$ git commit -m "add readme to pages-gh"
 $ git push origin -u pages-gh
 ```
 Como se puede observar es importante hacer el push correspondiente con el branch donde nos encontramos.
