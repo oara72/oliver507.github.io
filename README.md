@@ -79,7 +79,9 @@ borramos el readme del branch master
 $git rm README.md
 $git push origin master
 ```
-Listo ahora solo tenemos que ir al sitio web de git hub y en settings > options
+Listo ahora solo tenemos que ir al sitio web de git hub y en settings > options > change theme y apretar el boton para elegir un tema esto genera un archivo en nuetro repositorio llamado _config.yml.
+
+Ahora vamos al link: Your site is published at ```https://[nombre del usuario].github.io/```
 
 
 # Referencias:
