@@ -36,7 +36,7 @@ bien ahora vamos a crear un branch llamado "pages-gh" (indistinto igual se puede
 
 ```
 $ git branch pages-gh
-$ git fetch
+
 $ git checkout pages-gh
 ```
 El ultimo comando nos hara un switch al branch pages-gh
@@ -47,14 +47,14 @@ $ git branch
 ```
 el simbolo * no indica en que branch nos encontramos.
 
-ahora enviamos informacion a este nuevo branch para que se genere.
+```
+$ echo "# pages-gh" >> README.md
+$ git add README.md
+$ git commit -m "pages-gh"
+$ git push origin pages-gh
+```
 
-```
-$ git add .
-$ git commit -m "add readme to pages-gh"
-$ git push origin -u pages-gh
-```
-Como se puede observar es importante hacer el push correspondiente con el branch donde nos encontramos.
+Como se puede observar es importante hacer el push origin correspondiente en el branch donde nos encontramos.
 
 Ahora vamos al web de Git Hub y en settings buscamos branches > default branch y ponemos por default la branch pages-gh.
 
